@@ -1,0 +1,41 @@
+<!--
+Praneith Karunakumar
+November 7th 8:00pm
+the basic html page which houses my game
+	--->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>russian roulette</title>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><!--jquary links--->
+
+		<link rel="stylesheet" href="https://res.cloudinary.com/veseylab/raw/upload/v1597754760/magicmouse/magic-mouse-1.0.css" /><!--link to libary for mouse style--->
+  		
+  		<script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1597754761/magicmouse/magic_mouse-1.0.js"></script><!--link to libary for mouse styles--->
+		
+		<script src="code.js"></script><!--link to code--->
+		<link rel="stylesheet" type="text/css" href="style.css"><!--link to stylesheet--->
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="CharacterChoice" id="choiceGui"><!--character GUI--->
+				<h1 style="text-align: center;">Your options</h1>
+				<h1>
+				 	<input type="button" id="spin"><b>Spin</b></input><br><!--spin button--->
+				 	<input type="button" id="shootpartner"><b> Shoot Partner</b></input><br><!--shootpartner--->
+				 	<input type="button" id="shootyourself"><b> Shoot Yourself</b></input><br><!--shoot yourself--->
+				 	<input type="button" id="pass"><b>Pass to Partner</b></input><br>	<!--pass--->
+				</h1>	 	
+			</div>
+			<br>
+			<div class="partner"><!--discriptions--->
+				<h1 id="messages"> THE DISCRIPTIONS</h1>
+			</div>
+		</div>
+		<br>
+	</body>
+
+</html>
+

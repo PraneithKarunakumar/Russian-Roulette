@@ -1,0 +1,34 @@
+/*
+Praneith Karunakumar
+November 7th 9:30pm
+the basic  styles for html page of my game
+*/
+input{
+  background-color: #ba2525; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.CharacterChoice{
+	border-style: solid;
+	background-color: grey;
+	border-color: blue;
+	width: 300px;
+	margin: auto;
+}
+.partner{
+	text-align: center;
+	border-style: solid;
+	border-color: blue;
+	background-color: grey;
+	width: 600px;
+	margin: auto;
+}
+
+body{
+	background-color: black;
+}
